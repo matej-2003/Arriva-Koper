@@ -1,0 +1,387 @@
+[
+	[
+		"Banka",
+		[
+			"Banka.png"
+		]
+	],
+	[
+		"Banka I",
+		[
+			"Banka I.png"
+		]
+	],
+	[
+		"Barka",
+		[
+			"Barka.png"
+		]
+	],
+	[
+		"Barka I",
+		[
+			"Barka I.png"
+		]
+	],
+	[
+		"Barka II",
+		[
+			"Barka II.png"
+		]
+	],
+	[
+		"Beblerjeva",
+		[
+			"Beblerjeva.png"
+		]
+	],
+	[
+		"Bolnica",
+		[
+			"Bolnica.png"
+		]
+	],
+	[
+		"Čebelnjak",
+		[
+			"Čebelnjak.png"
+		]
+	],
+	[
+		"Cimos P&R",
+		[
+			"Cimos P&R.png"
+		]
+	],
+	[
+		"Dolga Reber",
+		[
+			"Dolga Reber.png"
+		]
+	],
+	[
+		"Dolinska",
+		[
+			"Dolinska.png"
+		]
+	],
+	[
+		"II. Prekomorske",
+		[
+			"II. Prekomorske.png"
+		]
+	],
+	[
+		"Izletniška",
+		[
+			"Izletniška.png"
+		]
+	],
+	[
+		"Kampel",
+		[
+			"Kampel.png"
+		]
+	],
+	[
+		"Kapelca",
+		[
+			"Kapelca.png"
+		]
+	],
+	[
+		"Klaričeva",
+		[
+			"Klaričeva.png"
+		]
+	],
+	[
+		"Koper",
+		[
+			"Koper.png"
+		]
+	],
+	[
+		"Nad Dolinsko",
+		[
+			"Nad Dolinsko.png"
+		]
+	],
+	[
+		"Kosovelov trg",
+		[
+			"Kosovelov trg.png"
+		]
+	],
+	[
+		"Kozlovičeva",
+		[
+			"Kozlovičeva.png"
+		]
+	],
+	[
+		"Kraljeva",
+		[
+			"Kraljeva.png"
+		]
+	],
+	[
+		"Krožna",
+		[
+			"Krožna.png"
+		]
+	],
+	[
+		"Kvedrova",
+		[
+			"Kvedrova.png"
+		]
+	],
+	[
+		"Lesnina",
+		[
+			"Lesnina.png"
+		]
+	],
+	[
+		"Luka",
+		[
+			"Luka.png"
+		]
+	],
+	[
+		"Mandrač",
+		[
+			"Mandrač.png"
+		]
+	],
+	[
+		"Markovec",
+		[
+			"Markovec.png"
+		]
+	],
+	[
+		"Markovec-Center Za gradom",
+		[
+			"Markovec-Center Za gradom.png"
+		]
+	],
+	[
+		"Potniški terminal",
+		[
+			"Potniški terminal.png"
+		]
+	],
+	[
+		"Markovec Š",
+		[
+			"Markovec Š.png"
+		]
+	],
+	[
+		"Mercator",
+		[
+			"Mercator.png"
+		]
+	],
+	[
+		"Molet",
+		[
+			"Molet.png"
+		]
+	],
+	[
+		"Nova",
+		[
+			"Nova.png"
+		]
+	],
+	[
+		"Oljčna pot Lantana",
+		[
+			"Oljčna pot Lantana.png"
+		]
+	],
+	[
+		"Olmo",
+		[
+			"Olmo.png"
+		]
+	],
+	[
+		"Partizanska",
+		[
+			"Partizanska.png"
+		]
+	],
+	[
+		"Trg Brolo",
+		[
+			"Trg Brolo.png"
+		]
+	],
+	[
+		"Pasarela",
+		[
+			"Pasarela.png"
+		]
+	],
+	[
+		"PH Sonce",
+		[
+			"PH Sonce.png"
+		]
+	],
+	[
+		"Prisoje",
+		[
+			"Prisoje.png"
+		]
+	],
+	[
+		"Rozmanova",
+		[
+			"Rozmanova.png"
+		]
+	],
+	[
+		"Rozmanova I",
+		[
+			"Rozmanova I.png"
+		]
+	],
+	[
+		"Rozmanova II",
+		[
+			"Rozmanova II.png"
+		]
+	],
+	[
+		"Šalara",
+		[
+			"Šalara.png"
+		]
+	],
+	[
+		"Semedela tunel",
+		[
+			"Semedela tunel.png"
+		]
+	],
+	[
+		"Semedelski razgledi",
+		[
+			"Semedelski razgledi.png"
+		]
+	],
+	[
+		"Srebrničeva ulica",
+		[
+			"Srebrničeva ulica.png"
+		]
+	],
+	[
+		"Srmin GORC I",
+		[
+			"Srmin GORC I.png"
+		]
+	],
+	[
+		"Srmin GORC II",
+		[
+			"Srmin GORC II.png"
+		]
+	],
+	[
+		"Srmin GORC III",
+		[
+			"Srmin GORC III.png"
+		]
+	],
+	[
+		"Srmin III",
+		[
+			"Srmin III.png"
+		]
+	],
+	[
+		"Stadion",
+		[
+			"Stadion.png"
+		]
+	],
+	[
+		"Supernova",
+		[
+			"Supernova.png"
+		]
+	],
+	[
+		"Sv.Ana",
+		[
+			"Sv.Ana.png"
+		]
+	],
+	[
+		"Sv.Ana V.n.",
+		[
+			"Sv.Ana V.n..png"
+		]
+	],
+	[
+		"Tomos",
+		[
+			"Tomos.png"
+		]
+	],
+	[
+		"Tomšičeva",
+		[
+			"Tomšičeva.png"
+		]
+	],
+	[
+		"Tržnica",
+		[
+			"Tržnica.png"
+		]
+	],
+	[
+		"Ul.15. Maja",
+		[
+			"Ul.15. Maja.png"
+		]
+	],
+	[
+		"Vena Pilona",
+		[
+			"Vena Pilona.png"
+		]
+	],
+	[
+		"Zeleni park",
+		[
+			"Zeleni park.png"
+		]
+	],
+	[
+		"Žusterna",
+		[
+			"Žusterna.png"
+		]
+	],
+	[
+		"Žusterna bazen",
+		[
+			"Žusterna bazen.png"
+		]
+	],
+	[
+		"Žusterna III",
+		[
+			"Žusterna III.png"
+		]
+	],
+	["Žusterna parkirišče", []]
+]

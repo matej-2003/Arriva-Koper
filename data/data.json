@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Linija 1 (Koper-Kampel)",
+		"file": "./data/linija 1/Koper-Kampel.csv"
+	},
+	{
+		"name": "Linija 1 (Kampel-Koper)",
+		"file": "./data/linija 1/Kampel-Koper.csv"
+	},
+	{
+		"name": "Ospedale 2 (Bolnica-Koper)",
+		"file": "./data/linija 2/Bolnica-Koper.csv"
+	},
+	{
+		"name": "Ospedale 2 (Koper-Bolnica)",
+		"file": "./data/linija 2/Koper-Bolnica.csv"
+	},
+	{
+		"name": "Ospedale 2a (Bolnica-Koper)",
+		"file": "./data/linija 2/2aBolnica-Koper.csv"
+	},
+	{
+		"name": "Ospedale 2a (Bolnica-Koper)",
+		"file": "./data/linija 2/2aBolnica-Koper.csv"
+	}
+]

@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Išči postaje</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		.postaje {
+			display: flex;
+			flex-direction: row;
+			gap: 0.3em;
+			flex-wrap: wrap;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container-sm">
+		<h2>Postaje</h2>
+		<div class="row">
+			<ul class="col-4">
+				<li><a href="#Banka">Banka</a></li>
+				<li><a href="#Banka I">Banka I</a></li>
+				<li><a href="#Barka">Barka</a></li>
+				<li><a href="#Barka I">Barka I</a></li>
+				<li><a href="#Barka II">Barka II</a></li>
+				<li><a href="#Beblerjeva">Beblerjeva</a></li>
+				<li><a href="#Bolnica">Bolnica</a></li>
+				<li><a href="#Čebelnjak">Čebelnjak</a></li>
+				<li><a href="#Cimos P&R">Cimos P&R</a></li>
+			</ul>
+			<ul class="col-4">
+				<li><a href="#Dolga Reber">Dolga Reber</a></li>
+				<li><a href="#Dolinska">Dolinska</a></li>
+				<li><a href="#II. Prekomorske">II. Prekomorske</a></li>
+				<li><a href="#Izletniška">Izletniška</a></li>
+				<li><a href="#Kampel">Kampel</a></li>
+				<li><a href="#Kapelca">Kapelca</a></li>
+				<li><a href="#Klaričeva">Klaričeva</a></li>
+				<li><a href="#Koper">Koper</a></li>
+				<li><a href="#Nad Dolinsko">Nad Dolinsko</a></li>
+				<li><a href="#Kosovelov trg">Kosovelov trg</a></li>
+			</ul>
+			<ul class="col-4">
+				<li><a href="#Kozlovičeva">Kozlovičeva</a></li>
+				<li><a href="#Kraljeva">Kraljeva</a></li>
+				<li><a href="#Krožna">Krožna</a></li>
+				<li><a href="#Kvedrova">Kvedrova</a></li>
+				<li><a href="#Lesnina">Lesnina</a></li>
+				<li><a href="#Luka">Luka</a></li>
+				<li><a href="#Mandrač">Mandrač</a></li>
+				<li><a href="#Markovec">Markovec</a></li>
+				<li><a href="#Markovec-Center Za gradom">Markovec-Center Za gradom</a></li>
+				<li><a href="#Potniški terminal">Potniški terminal</a></li>
+			</ul>
+			<ul class="col-4">
+				<li><a href="#Markovec Š">Markovec Š</a></li>
+				<li><a href="#Mercator">Mercator</a></li>
+				<li><a href="#Molet">Molet</a></li>
+				<li><a href="#Nova">Nova</a></li>
+				<li><a href="#Oljčna pot Lantana">Oljčna pot Lantana</a></li>
+				<li><a href="#Olmo">Olmo</a></li>
+				<li><a href="#Partizanska">Partizanska</a></li>
+				<li><a href="#Trg Brolo">Trg Brolo</a></li>
+				<li><a href="#Pasarela">Pasarela</a></li>
+				<li><a href="#PH Sonce">PH Sonce</a></li>
+			</ul>
+			<ul class="col-4">
+				<li><a href="#Prisoje">Prisoje</a></li>
+				<li><a href="#Rozmanova">Rozmanova</a></li>
+				<li><a href="#Rozmanova I">Rozmanova I</a></li>
+				<li><a href="#Rozmanova II">Rozmanova II</a></li>
+				<li><a href="#Šalara">Šalara</a></li>
+				<li><a href="#Semedela tunel">Semedela tunel</a></li>
+				<li><a href="#Semedelski razgledi">Semedelski razgledi</a></li>
+				<li><a href="#Srebrničeva ulica">Srebrničeva ulica</a></li>
+				<li><a href="#Srmin GORC I">Srmin GORC I</a></li>
+				<li><a href="#Srmin GORC II">Srmin GORC II</a></li>
+			</ul>
+			<ul class="col-4">
+				<li><a href="#Srmin GORC III">Srmin GORC III</a></li>
+				<li><a href="#Srmin III">Srmin III</a></li>
+				<li><a href="#Stadion">Stadion</a></li>
+				<li><a href="#Supernova">Supernova</a></li>
+				<li><a href="#Sv.Ana">Sv.Ana</a></li>
+				<li><a href="#Sv.Ana V.n.">Sv.Ana V.n.</a></li>
+				<li><a href="#Tomos">Tomos</a></li>
+				<li><a href="#Tomšičeva">Tomšičeva</a></li>
+				<li><a href="#Tržnica">Tržnica</a></li>
+			</ul>
+			<ul class="col-4">
+				<li><a href="#Ul.15. Maja">Ul.15. Maja</a></li>
+				<li><a href="#Vena Pilona">Vena Pilona</a></li>
+				<li><a href="#Zeleni park">Zeleni park</a></li>
+				<li><a href="#Žusterna">Žusterna</a></li>
+				<li><a href="#Žusterna bazen">Žusterna bazen</a></li>
+				<li><a href="#Žusterna III">Žusterna III</a></li>
+				<li><a href="#Žusterna parkirišč">Žusterna parkirišč</a></li>
+			</ul>
+		</div>
+		<hr>
+		<div class="postaje">
+			<div id="Banka" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Banka</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Banka I" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Banka I</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Barka" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Barka</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Barka I" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Barka I</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Barka II" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Barka II</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Beblerjeva" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Beblerjeva</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Bolnica" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Bolnica</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Čebelnjak" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Čebelnjak</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Cimos P&R" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Cimos P&R</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Dolga Reber" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Dolga Reber</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Dolinska" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Dolinska</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="II. Prekomorske" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">II. Prekomorske</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Izletniška" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Izletniška</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Kampel" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Kampel</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Kapelca" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Kapelca</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Klaričeva" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Klaričeva</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Koper" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Koper</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Nad Dolinsko" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Nad Dolinsko</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Kosovelov trg" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Kosovelov trg</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Kozlovičeva" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Kozlovičeva</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Kraljeva" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Kraljeva</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Krožna" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Krožna</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Kvedrova" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Kvedrova</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Lesnina" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Lesnina</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Luka" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Luka</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Mandrač" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Mandrač</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Markovec" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Markovec</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Markovec-Center Za gradom" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Markovec-Center Za gradom</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Potniški terminal" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Potniški terminal</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Markovec Š" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Markovec Š</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Mercator" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Mercator</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Molet" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Molet</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Nova" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Nova</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Oljčna pot Lantana" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Oljčna pot Lantana</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Olmo" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Olmo</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Partizanska" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Partizanska</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Trg Brolo" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Trg Brolo</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Pasarela" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Pasarela</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="PH Sonce" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">PH Sonce</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Prisoje" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Prisoje</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Rozmanova" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Rozmanova</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Rozmanova I" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Rozmanova I</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Rozmanova II" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Rozmanova II</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Šalara" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Šalara</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Semedela tunel" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Semedela tunel</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Semedelski razgledi" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Semedelski razgledi</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Srebrničeva ulica" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Srebrničeva ulica</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Srmin GORC I" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Srmin GORC I</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Srmin GORC II" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Srmin GORC II</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Srmin GORC III" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Srmin GORC III</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Srmin III" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Srmin III</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Stadion" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Stadion</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Supernova" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Supernova</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Sv.Ana" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Sv.Ana</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Sv.Ana V.n." class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Sv.Ana V.n.</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Tomos" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Tomos</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Tomšičeva" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Tomšičeva</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Tržnica" class="card" style="width: 18rem;">
+				<img src="./data/slike/tržnica.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Tržnica</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Ul.15. Maja" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Ul.15. Maja</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Vena Pilona" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Vena Pilona</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Zeleni park" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Zeleni park</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Žusterna" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Žusterna</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Žusterna bazen" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Žusterna bazen</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Žusterna III" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Žusterna III</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<div id="Žusterna parkirišč" class="card" style="width: 18rem;">
+				<img src="./data/slike/koper.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h6 class="card-title">Žusterna parkirišč</h6>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+</body>
+
+</html>

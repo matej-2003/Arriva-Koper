@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Postaje</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<table>
+		<tr>
+			<td>Išči avtobuse</td>
+		</tr>
+		<tr>
+			<td>Od</td>
+			<td><input type="text" id="od" list="postaje" value="Koper"></td>
+			<td colspan="2"><button id="switch">Zamenjaj</button></td>
+		</tr>
+		<tr>
+			<td>Do</td>
+			<td><input type="text" id="do" list="postaje" value="Tržnica"></td>
+		</tr>
+		<tr>
+			<td>Datum</td>
+			<td><input type="date" id="date"></td>
+		</tr>
+		<tr>
+			<td colspan="2"><button id="find">Najdi</button></td>
+		</tr>
+	</table>
+	<datalist id="postaje">
+		<!-- <option value="Koper">Koper</option>
+		<option value="Lesnina">Lesnina</option>
+		<option value="Banka I">Banka I</option>
+		<option value="Tržnica">Tržnica</option>
+		<option value="Zeleni park">Zeleni park</option>
+		<option value="Potniški terminal">Potniški terminal</option>
+		<option value="Sv.Ana p.t.">Sv.Ana p.t.</option>
+		<option value="PH Sonce">PH Sonce</option>
+		<option value="Sv.Ana V.n.">Sv.Ana V.n.</option>
+		<option value="Kosovelov trg">Kosovelov trg</option>
+		<option value="Banka">Banka</option>
+		<option value="Stadion">Stadion</option> -->
+	</datalist>
+	<br>
+	<hr>
+	<br>
+	<div class="schedule" id="schedule">
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+	<script src="./jquery-csv.min.js" defer></script>
+	
+	<script>
+		let postaje = $("#postaje");
+
+		fetch('./data/postaje')
+			.then((response) => response.text())
+			.then((text) => {
+				for (let p of text.trim().split("\n")) {
+					postaje.append(
+						$(`<option>${p}</option>`).attr({ 'value': p })
+					);
+				}
+			});
+	</script>
+	<script src="./script1.js" defer></script>
+</body>
+
+</html>
